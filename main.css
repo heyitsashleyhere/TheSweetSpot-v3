@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #D5D3D3;
+}
+
+
+/* ===================
+    Header
+    =================== */
+.home,
+.contact {
+    background-size: cover;
+    height: 28vh;
+    text-align: center;
+}
+
+.home {
+    background-image: url(images/main-header.jpg);
+}
+
+.contact {
+    background-image: url(images/contact-header.jpeg);
+}
+
+h1 {
+    background-color: #f58ea0;
+    color: #dad8d8;
+    padding: 1rem;
+    width: 100vw;
+    position: relative;
+    top: 28vh;
+}
+
+/* ===================
+    Global Style
+    =================== */
+main {
+    width: 75vw;
+    background-color: #eeeeee;
+    border: 2px solid rgb(255,255,255);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 100px auto 0 auto;
+}
+
+h2 {
+    background-color: #DAD8D8;
+    color: #f114f1;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+h3 {
+    font-size: 24px;
+    padding: 12px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+
+p {
+    padding: 8px;
+}
+
+article>p {
+    margin-top: 1rem;
+}
+
+section {
+    text-align: center;
+}
+
+.partnersHeader {
+    margin: 1rem auto;
+}
+
+.contactInfo {
+    padding: 1.2rem 1rem;
+}
+
+footer {
+    text-align: center;
+    margin: 4rem auto 2rem auto;
+}
+
+/* ===================
+    Content Images
+    =================== */
+
+a>img {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    margin: 1rem;
+}
+
+.lollipop,
+.jellybean {
+    float: left;
+}
+
+.lollipop {
+    border: 5px solid #ebf74c;
+}
+
+.cottoncandy {
+    border: 5px solid #1cd8ef;
+    float: right;
+}
+
+.jellybean {
+    border: 5px solid #ff68b4;
+}
+
+
+/* ===================
+    Lists Style
+    =================== */
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 12px;
+}
+
+.partnerList {
+    background-color: #F58EA0;
+}
+
+.partnerList:hover {
+    background-color: yellow;
+}
+
+.contactList {
+    background-color: #1CD8EF;
+}
+
+li:hover {
+    background-color: #F58EA0;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+/* ===================
+    Links
+    =================== */
+a {
+    text-decoration: none;
+}
+
+.homeButton {
+    font-weight: bold;
+    text-align: left;
+    padding: 1rem;
+    margin: 0;
+}
+
+.homeButton a {
+    color: #ED0FBD;
+}
